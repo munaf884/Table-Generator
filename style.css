@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(226, 226, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    width: 70;
+    padding: 20px;
+    color: Black;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
+
+input {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(87, 87, 87);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:rgb(150, 132, 32);
+    color: black;
+}
+.mytable{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+    .table {
+        width: 50%;
+        padding: 15px;
+    }
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Math Table Generator</h1>
+    </header>
+    <div class="table">
+        <label for="writeNumOfTable" class="table">
+          Number of Table:
+          <input class="table" type="number" id="Numoftable" />
+        </label>
+        <br>
+        <label for="countTheNumber" class="table">
+          Number of count:
+          <input class="table" type="number" id="countNumber" />
+        </label>
+        <br>
+        <br>
+        <button onclick="generateTable()" class="table">Generate</button>
+        <div class="mytable">
+            <table id="writeTable" class="table"></table>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
